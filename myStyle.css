@@ -36,6 +36,11 @@ body{
    position: absolute;
    top: auto;
    left: 10px;
+   display: block;
+}
+.logo figcaption{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
 }
 .logo img{
     width: 50px;
