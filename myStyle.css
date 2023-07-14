@@ -1,0 +1,135 @@
+*{
+    font-family: sans-serif;
+   
+}
+body{
+    margin: 0;
+}
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    position: relative;
+}
+.Nav_links{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    text-align: right;
+}
+.Nav_links ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.Nav_links li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.Nav_links a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.logo {
+   position: absolute;
+   top: auto;
+   left: 10px;
+}
+.logo img{
+    width: 50px;
+    height: auto;
+}
+.intro_text{
+    margin-top: 100px;
+    color: #E5E7EB;  
+    margin-left: 20px;
+}
+.title_intro{
+    font-size: 48px;
+    
+}
+.header_img img{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    right: 250px;
+    top: 85px;
+
+}
+.support_link input{
+    background-color: rgb(89, 145, 140);
+    color: white;
+    border: none;
+    border-radius: 5px;
+   margin: 10px;
+   margin-left: 40px;
+   padding: 5px 10px;
+   margin-bottom: 50px;
+}
+.image_section{
+    display: block;
+    align-items: center;
+    margin: 20px 20px;
+}
+.image_section img{
+    margin-right: 10px;
+    max-width: 200px;
+    height: auto;
+}
+.img_part{
+    display: flex;
+    justify-content: space-between;
+
+}
+.img_part figcaption{
+    line-height: 1.5;
+    position: relative;
+}
+.inspiring_quote{
+    text-align: center;
+    justify-content: space-between;
+    line-height: 2;
+    background-color: #E5E7EB;
+}
+.inspiring_quote{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.donnation_link{
+    background-color: rgb(69, 166, 231);
+   padding-left: 300px;
+   padding-right: 300px;
+   padding-bottom: 25px;
+   padding-top: 25px;
+   margin-left: 75px;
+   margin-right: 75px;
+    display: inline-flex;
+   align-items: center;
+   border-radius: 7px;
+}
+.donnation_link input{
+    background-color: rgb(69, 166, 231);
+    color: white;
+    border-style:double;
+    border-radius: 5px;
+    border-color: #E5E7EB;
+   margin: 10px;
+   margin-left: 10px;
+   padding: 5px 10px;
+   margin-bottom: 5px;
+   
+}
+.suppot_me{
+    padding: 20px 20px;
+}
+.footer_section{
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px 20px;
+}
+.footer_section p{
+    color: #E5E7EB;
+    padding: 25px 25px;
+}
